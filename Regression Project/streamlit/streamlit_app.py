@@ -3,8 +3,8 @@ import numpy as np
 import pickle
 
 # Load the model and scaler
-ridge_model = pickle.load(open('ridge.pkl', 'rb'))
-standard_scaler = pickle.load(open('scaler.pkl', 'rb'))
+ridge_model = pickle.load(open('Regression Project/streamlit/ridge.pkl', 'rb'))
+standard_scaler = pickle.load(open('Regression Project/streamlit/scaler.pkl', 'rb'))
 
 # Set up the Streamlit UI
 st.title("Wildfire Burned Area Prediction")
